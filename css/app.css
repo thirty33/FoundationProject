@@ -1,0 +1,7 @@
+.row {
+	border: 1px solid red;
+}
+
+.column, .columns {
+	border: 1px solid blue;
+}
