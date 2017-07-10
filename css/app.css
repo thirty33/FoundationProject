@@ -1,3 +1,6 @@
+
+
+
 body {
 	background-color: #ee3f54; 
 }
@@ -141,9 +144,75 @@ h1,h2,h3,h4,h5,h6,button {
 	text-align: left;
 }
 
+/*Corrigiendo bug de fundation*/
 .orbit-container {
     height: auto !important;
 }
+
 .orbit-slide {
     max-height: none !important;
+}
+
+
+.tickets-container {
+	padding: 1em 0;
+	background-color: #f6e15f;
+	color:#161742;
+}
+
+/*Pricing table*/
+
+.pricing-table {
+	margin-top: 20px; 
+	font-size: 20px;
+	font-family: 'Ravi Prakash', cursive;
+	/*background-color: #fefefe;*/
+	border: solid 1px #0a0a0a;
+	width: 100%;
+	text-align: center;
+	list-style-type: none;
+	margin-left: 0;
+	
+}
+
+.pricing-table li {
+	border-bottom: dotted 1px #cacaca;
+	padding: 0.875rem 1.125rem;
+}
+
+.pricing-table li:last-child {
+	border-bottom: 0;
+}
+
+.pricing-table .title {
+	font-size: 30px;
+	background-color: #0a0a0a;
+	color: #fefefe;
+	border-bottom: 0;
+}
+
+.pricing-table .price {
+	font-size: 40px !important;
+	background-color: #e6e6e6;
+	font-size: 2rem;
+	border-bottom: 0;
+}
+
+.pricing-table .description {
+	text-transform: uppercase;
+	color: #8a8a8a;
+	font-size: 100%;
+}
+
+.pricing-table :last-child {
+	margin-bottom: 0;
+}
+
+.pricing-table a.button {
+	font-family: 'Ravi Prakash', cursive;
+	font-size: 80%;
+}
+
+#little-table {
+	padding-right: 15px;
 }
