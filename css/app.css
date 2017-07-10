@@ -172,7 +172,7 @@ h1,h2,h3,h4,h5,h6,button {
 	text-align: center;
 	list-style-type: none;
 	margin-left: 0;
-	
+
 }
 
 .pricing-table li {
@@ -213,6 +213,14 @@ h1,h2,h3,h4,h5,h6,button {
 	font-size: 80%;
 }
 
+
 #little-table {
-	padding-right: 15px;
+		padding-right: 15px;
+}
+
+
+#info-container {
+	background-color: #161742;
+	color:white;
+	padding:1em 0;
 }
