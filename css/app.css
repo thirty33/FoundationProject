@@ -224,3 +224,29 @@ h1,h2,h3,h4,h5,h6,button {
 	color:white;
 	padding:1em 0;
 }
+
+#suscribete-container {
+	background-color: #ee3f54;
+	color: white;
+	padding: 1em  0; 
+}
+
+#suscribete-container .contenedor1 {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+#suscribete-container h4 small {
+	color:#ffcddc;
+}
+
+#suscribete-container .button {
+	font-family: 'Bree Serif', serif;
+    height: 2.6rem;
+}
+
+#suscribete-container .email-input {
+	width: 90%;
+	margin-right: 10px;
+}
