@@ -267,3 +267,40 @@ h1,h2,h3,h4,h5,h6,button {
 .l-sticky {
 	z-index: 5;
 }
+
+
+.menu-container-mobile li {
+	list-style: none;
+	text-align: center;
+
+} 
+
+.menu-container-mobile li a{
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+}
+
+
+/*EStilos del menu offcanvas*/
+
+
+#offCanvas,
+#offCanvas li a {
+	background-color: black;
+	color:white;
+	font-family: 'Bree Serif', serif;
+
+
+}
+
+#offCanvas li {
+	list-style: none;
+}
+
+#info-container {
+
+} 
+
+#info-container .info-map {
+	
+}
