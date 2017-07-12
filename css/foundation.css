@@ -3661,7 +3661,7 @@ a.thumbnail {
 
 .sticky {
   position: relative;
-  z-index: 0;
+  z-index: 5;
   transform: translate3d(0, 0, 0); }
 
 .sticky.is-stuck {
