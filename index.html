@@ -87,20 +87,29 @@
 
 
       <!-- menu -->
-      <section id="menu-container">
-        <ul class="menu dropdown align-spaced" data-dropdown-menu>
-          <li><a href="#"><i class="fi-ticket"></i>Tickets</a></li>
-          <li>
-            <a href="#">LineUp</a>
-            <ul id="submenu-container" class="menu">
-              <li><a href="#">Viernes</a></li>
-              <li><a href="#">Sabado</a></li>
-              <li><a href="#">Domingo</a></li>
-            </ul>  
-          </li>
-          <li><a href="#">Info</a></li>
-          <li><a href="#">Suscribete</a></li>
-        </ul>
+      <section id="scrollSticky" data-sticky-container>
+        <div class="l-sticky" data-sticky data-sticky-on="small" data-margin-top="0" data-top-anchor="scrollSticky">
+          
+          <nav id="menu-container" data-magellan>
+            
+            <ul class="menu dropdown align-spaced" data-dropdown-menu>
+              <li><a href="#tickets-container"><i class="fi-ticket"></i>Tickets</a></li>
+              <li>
+                <a href="#lineup-container">LineUp</a>
+                <!-- <nav data-magellan> -->
+                  
+                <ul id="submenu-container" class="menu">
+                  <li><a href="#tabs-content-viernes">Viernes</a></li>
+                  <li><a href="#tabs-content-sabado">Sabado</a></li>
+                  <li><a href="#tabs-content-domingo">Domingo</a></li>
+                </ul>  
+                <!-- </nav> -->
+              </li>
+              <li><a href="#info-container">Info</a></li>
+              <li><a href="#suscribete-container">Suscribete</a></li>
+            </ul>
+          </nav>
+        </div>
 
       </section>
 
@@ -132,7 +141,7 @@
           <!-- Contenido de cada tab -->
 
           <div class="tabs-content" data-tabs-content ="lineup-tabs">
-               <div class="tabs-panel is-active" id="tabs-content-viernes">
+               <div class="tabs-panel is-active" id="tabs-content-viernes" data-magellan-target="tabs-content-viernes">
                  <div class="row">
                    <div class="small-12 medium-6 column">
                      <div class="orbit" data-orbit>
@@ -216,7 +225,7 @@
 
                </div> 
               </div>
-              <div class="tabs-panel" id="tabs-content-sabado">
+              <div class="tabs-panel" id="tabs-content-sabado" data-magellan-target="tabs-content-sabado">
                  <div class="row">
                    <div class="small-12 medium-6 column">
                      <div class="orbit" data-orbit>
@@ -300,7 +309,7 @@
 
                </div> 
               </div>
-              <div class="tabs-panel" id="tabs-content-domingo">
+              <div class="tabs-panel" id="tabs-content-domingo" data-magellan-target="tabs-content-domingo">
                  <div class="row">
                    <div class="small-12 medium-6 column">
                      <div class="orbit" data-orbit>
@@ -390,7 +399,7 @@
 
       <!-- Compra de boletos, con building block de Foundation -->
 
-      <section class="tickets-container">
+      <section class="tickets-container" id="tickets-container" data-magellan-target="tickets-container">
         <h3 class="text-center">Comprar boletos</h3>
         <div class="row" data-equalizer data-equalize-on="small">
             <div class="column small-10 medium-6 medium-offset-3 small-offset-1">
